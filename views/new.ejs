@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add</title>
+</head>
+<style>
+    body {
+        margin-top: 200px;
+        margin: 0 auto;
+    }
+    form {
+        height: 100%;
+        width: 200px;
+        margin: 0 auto;
+    }
+    label {
+        font-size: 20px;
+    }
+    input {
+        font-size: 15px;
+        margin: 10px 10px;
+        padding: 7px 30px;
+    }
+    textarea {
+        font-size: 15px;
+        margin: 10px 10px;
+        padding: 7px 30px;
+    }
+
+</style>
+<body>
+    <form method="POST" action="/posts">
+        <label>Name: </label>
+        <input placeholder="enter name" name="username"><br>
+        <label>Content: </label>
+        <textarea placeholder="write" cols="20" rows="10" name="content"></textarea> <br>
+        <button>Submit</button>
+    </form>
+</body>
+</html>

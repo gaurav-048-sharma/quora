@@ -1,0 +1,19 @@
+h1 {
+    color: maroon;
+}
+h3 , h2{
+    color: maroon;
+}
+
+.posts {
+    background-color: rgb(245, 219, 177);
+}
+.username{
+    font-style: italic;
+}
+.cont {
+    background-color: rgb(245, 219, 177);
+}
+a {
+    text-decoration: none;
+}
